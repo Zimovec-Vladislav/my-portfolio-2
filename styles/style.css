@@ -107,17 +107,17 @@ p {
     margin-bottom: 30px;
 }
 
-.first-title {
+.subtitle {
     font-weight: 300;
     line-height: 1.8;
     opacity: 60%;
 }
 
-.second-title {
+.title {
     font-weight: 500;
 }
 
-.second-title span {
+.title span {
     color: #2B7DED;
 }
 
@@ -164,6 +164,7 @@ p {
 
     color: white;
     text-decoration: none;
+    font-weight: 500;
 
     position: relative;
 }
