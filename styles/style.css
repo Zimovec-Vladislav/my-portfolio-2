@@ -232,3 +232,85 @@ p {
     top: 50%;
     right: -130px;
 }
+
+
+/* =====Media=====
+=================== */
+@media( max-width: 1060px) {
+    .page {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 2rem;
+        position: relative;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 5;
+    }
+}
+
+@media( max-width: 700px) {
+    .brand {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .content {
+        margin-top: 55px;
+    }
+}
+
+@media( max-width: 600px) {
+    .header-init{
+        flex-direction: column;
+    }
+
+    .content {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+
+    .footer {
+        position: static;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contacts-link:last-child:after{
+        display: none;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+    }
+}
+
+@media {
+    .subtitle {
+
+    }
+}
